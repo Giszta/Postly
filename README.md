@@ -6,7 +6,7 @@
 
 
 ## 🎬 Demo
-🖥️ Working live demo <a href="https://email-assistant-ruddy.vercel.app/" target="_blank">here</a>
+🖥️ Working live demo <a href="https://postly-seven.vercel.app/" target="_blank">here</a>
 
 ## 🚀 Features
 
