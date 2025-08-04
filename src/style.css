@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --bg-gray-primary: oklch(21% 0.034 264.665);
+  --bg-gray-secondary: oklch(27.8% 0.033 256.848);
+  --bg-blue-primary: oklch(62.3% 0.214 259.815);
+  --bg-blue-hover: oklch(48.8% 0.243 264.376);
+  --text-blue-primary: oklch(62.3% 0.214 259.815);
+  --text-blue-hover: oklch(48.8% 0.243 264.376);
+
+}
+button:focus {
+  outline: none;
+}
+
+.scroll-button {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  background-color: var(--bg-blue-primary);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-button:hover {
+  background-color: var(--bg-blue-hover);
+  transform: scale(1.1);
+}
+
+.fade-slide-up-enter-active,
+.fade-slide-up-leave-active,
+.fade-slide-down-enter-active,
+.fade-slide-down-leave-active,
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-slide-up-enter-from,
+.fade-slide-up-leave-to,
+.fade-slide-enter-from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.fade-slide-down-enter-from,
+.fade-slide-down-leave-to,
+.fade-slide-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+
+
+
+
+
